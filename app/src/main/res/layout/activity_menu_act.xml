@@ -82,7 +82,7 @@
             android:id="@+id/text"
             android:layout_width="324dp"
             android:layout_height="51dp"
-            android:text="Agradecemos que prefieras trabajar con nosotros Fancy pizza’s"
+            android:text="Agradecemos que prefieras trabajar con nosotros Freddy Fazbear's Pizza"
             android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
