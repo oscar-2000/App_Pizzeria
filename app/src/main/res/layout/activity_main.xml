@@ -18,33 +18,38 @@
         app:layout_constraintVertical_bias="0.124"
         app:srcCompat="@drawable/logo" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="299dp"
-        android:layout_height="103dp"
-        android:background="#FFFFFF"
-        android:orientation="vertical"
+    <androidx.cardview.widget.CardView
+        android:layout_width="295dp"
+        android:layout_height="112dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <EditText
-            android:id="@+id/edtNombre"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Nombre usuario"
-            android:inputType="textPersonName" />
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="299dp"
+            android:layout_height="103dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/edtContrasena"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Ingrese contraseña"
-            android:inputType="textPassword" />
-    </LinearLayout>
+            <EditText
+                android:id="@+id/edtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nombre usuario"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtContrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ingrese contraseña"
+                android:inputType="textPassword" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/btnLogin"
