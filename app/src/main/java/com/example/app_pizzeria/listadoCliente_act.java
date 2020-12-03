@@ -96,7 +96,6 @@ public class listadoCliente_act extends AppCompatActivity {
                     adaptador.clear();
                 }
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
             }
