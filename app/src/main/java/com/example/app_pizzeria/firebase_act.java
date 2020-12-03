@@ -55,6 +55,9 @@ public class firebase_act extends AppCompatActivity {
                     //AGREGAMOS LOS CAMPOS A LA BASE DE DATOS
                     databaseReference.child("Clientes").child(clientes.getId()).setValue(clientes);
                     Toast.makeText(getBaseContext(),"Se ha guardado el cliente",Toast.LENGTH_LONG).show();
+                    nombre.setText("");
+                    destino.setText("");
+                    promo.setText("");
                 }
                 else{
                     Toast.makeText(getBaseContext(),"Inserte los datos en los campos",Toast.LENGTH_LONG).show();
